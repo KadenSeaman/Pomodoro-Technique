@@ -1,0 +1,27 @@
+#wrapper{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls{
+  display: flex;
+  gap: 20px;
+}
+.controls-container{
+  display: flex;
+  gap: 20px;
+}
+#break-label,#session-label,#time-left{
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .controls-container{
+    flex-direction: column;
+  }
+}
